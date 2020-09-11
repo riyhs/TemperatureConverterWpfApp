@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="ctof" Content="Celcius To Fahrenheit" HorizontalAlignment="Left" Margin="40,40,0,0" VerticalAlignment="Top" Width="146" RenderTransformOrigin="0.5,0.5" Click="ctof_Click"/>
+        <Button Name="rtof" Content="Reamur To Fahrenheit" HorizontalAlignment="Left" Margin="40,75,0,0" VerticalAlignment="Top" Width="146" RenderTransformOrigin="0.502,0.433" Click="rtof_Click"/>
+        <Button Name="ctor" Content="Celcius To Reamur" HorizontalAlignment="Left" Margin="40,110,0,0" VerticalAlignment="Top" Width="146" RenderTransformOrigin="0.502,0.433" Click="ctor_Click"/>
+        <Button Name="ftoc" Content="Fahrenheit To Celcius" HorizontalAlignment="Left" Margin="208,40,0,0" VerticalAlignment="Top" Width="146" RenderTransformOrigin="0.502,0.433" Click="ftoc_Click"/>
+        <Button Name="ftor" Content="Fahrenheit To Reamur" HorizontalAlignment="Left" Margin="208,75,0,0" VerticalAlignment="Top" Width="146" RenderTransformOrigin="0.502,0.433" Click="ftor_Click"/>
+        <Button Name="rtoc" Content="Reamur To Celcius" HorizontalAlignment="Left" Margin="208,110,0,0" VerticalAlignment="Top" Width="146" RenderTransformOrigin="0.502,0.433" Click="rtoc_Click"/>
+
+        <Button x:Name="ktoc" Content="Kelvin To Celcius" HorizontalAlignment="Left" Margin="40,150,0,0" VerticalAlignment="Top" Width="146" RenderTransformOrigin="0.5,0.5" Click="ktoc_Click"/>
+        <Button x:Name="ctok" Content="Celcius To Kelvin" HorizontalAlignment="Left" Margin="208,150,0,0" VerticalAlignment="Top" Width="146" RenderTransformOrigin="0.502,0.433" Click="ctok_Click"/>
+        <Button x:Name="ktof" Content="Kelvin To Fahrenheit" HorizontalAlignment="Left" Margin="40,190,0,0" VerticalAlignment="Top" Width="146" RenderTransformOrigin="0.5,0.5" Click="ktof_Click"/>
+        <Button x:Name="ftok" Content="Fahrenheit To Kelvin" HorizontalAlignment="Left" Margin="208,190,0,0" VerticalAlignment="Top" Width="146" RenderTransformOrigin="0.502,0.433" Click="ftok_Click"/>
+        <Button x:Name="ktor" Content="Kelvin To Reamur" HorizontalAlignment="Left" Margin="40,230,0,0" VerticalAlignment="Top" Width="146" RenderTransformOrigin="0.5,0.5" Click="ktor_Click"/>
+        <Button x:Name="rtok" Content="Reamur To Kelvin" HorizontalAlignment="Left" Margin="208,230,0,0" VerticalAlignment="Top" Width="146" RenderTransformOrigin="0.502,0.433" Click="rtok_Click"/>
+
+        <TextBox Name="tbSatu" HorizontalAlignment="Left" Height="23" Margin="392,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Name="labelHasil" Content="Hasill" HorizontalAlignment="Left" Margin="388,70,0,0" VerticalAlignment="Top" FontSize="48"/>
+    </Grid>
+</Window>
